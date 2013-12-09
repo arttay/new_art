@@ -46,13 +46,13 @@ app.controller("mainCtrl", function($scope, $location) {
    
 
 });
-app.directive('nextPage',function($location){
+app.directive('newpage',function($location){
 	return {
 	 	restrict: 'A',
 	 	link: function(scope, element, attrs) {
 
 	 		element.bind("click", function(){
-	 			scope.$apply(attrs.nextPage);
+	 			scope.$apply(attrs.newpage);
 	 		})
 	 		
 	 		
