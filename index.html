@@ -1,0 +1,33 @@
+<html ng-app = "app">
+<head>
+<script src = "http://code.angularjs.org/1.2.3/angular.js"></script>
+<script src = "http://code.angularjs.org/1.2.3/angular-route.min.js"></script>
+  <script src="http://code.angularjs.org/1.2.0/angular-animate.js"></script>
+<script src = "js/controllers/main.controller.js"></script>
+
+<link href="css/base.css" rel="stylesheet">
+<link href="css/reset.css" rel="stylesheet">
+
+</head>
+<body>
+	<div class = "wrapper" ng-controller="mainCtrl">
+		<div class = "nav">
+			<a ng-click="go('/info')" class = "infoLink">info</a>
+			<a ng-click="go('/')" class = "home">home</a>
+		</div>
+		<div ng-view class="mainView" >
+			<!--inside main view-->
+		</div><!--end view-->
+		
+		<div nextPage="pages()" class = "nextPage hello"  >
+
+		
+
+		</div>
+		<div class = "clear"></div>
+	</div><!--end ctlr-->
+
+
+
+</body>
+</html>

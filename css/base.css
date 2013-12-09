@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+html a {
+	
+	cursor: pointer;
+	position: relative;
+	text-decoration: underline;
+
+}
+
+a.home {
+float: left;
+
+}
+a.infoLink {
+float: left;
+padding-right: 10px;
+
+}
+.tempWrap {
+
+    background-color:#000;
+ float: left;
+    width:95%;
+    height:95%;
+    top:5%;
+    left:20%;
+ 
+}
+.main {
+background-image: url(http://images.alphacoders.com/373/37383.jpg);
+}
+.info {
+background-image: url(http://cdn.wallwuzz.com/uploads/worgen-world-of-warcraft-wallpaper-wallwuzz-hd-wallpaper-12863.jpg);
+}
+.contact {
+
+}
+.portfolio {
+  
+}
+
+.mainView.ng-enter, .mainView.ng-leave {
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+
+
+ 
+}
+
+.mainView.ng-enter {
+    left:100%;
+    position: absolute;
+    width:100%;
+    height:100%;
+    top: 6%;
+}
+.mainView.ng-enter.ng-enter-active {
+  left:0;
+
+}
+.mainView.ng-leave.ng-leave-active {
+  left:-100%;
+}
+
+.nextPage {
+  height: 95%;
+  width: 5%;
+  opacity: .8;
+   float: left;
+   background-color: #ccc;
+}
+.nav {
+  height: 5%;
+  width: 100%;
+  opacity: .8;
+   float: left;
+   background-color: #ccc;
+}
+.clear {
+  clear: both;
+}
