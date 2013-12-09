@@ -36,10 +36,10 @@ background-image: url(http://images.alphacoders.com/373/37383.jpg);
 background-image: url(http://cdn.wallwuzz.com/uploads/worgen-world-of-warcraft-wallpaper-wallwuzz-hd-wallpaper-12863.jpg);
 }
 .contact {
-
+background-image: url(http://dark.pozadia.org/images/wallpapers/54507990/World%20of%20Warcraft/Word%20of%20Warcraft%2022.jpg);
 }
 .portfolio {
-  
+  background-image: url(http://bestgamewallpapers.com/files/world-of-warcraft/army-of-eternity.jpg);
 }
 
 .mainView.ng-enter, .mainView.ng-leave {
@@ -81,4 +81,12 @@ background-image: url(http://cdn.wallwuzz.com/uploads/worgen-world-of-warcraft-w
 }
 .clear {
   clear: both;
+}
+.nav ul li {
+  display: inline;
+}
+.nav ul {
+  width: 50%;
+  margin: auto;
+  font-size: 125%;
 }

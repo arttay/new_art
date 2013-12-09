@@ -12,8 +12,12 @@
 <body>
 	<div class = "wrapper" ng-controller="mainCtrl">
 		<div class = "nav">
-			<a ng-click="go('/info')" class = "infoLink">info</a>
-			<a ng-click="go('/')" class = "home">home</a>
+			<ul>
+				<li><a ng-click="go('/'); updateIndex('/')" class = "homeLink navLinks">home</a></li>
+				<li><a ng-click="go('/info'); updateIndex('/info')" class = "infoLink navLinks">info</a></li>
+				<li><a ng-click="go('/contact'); updateIndex('/contact')" class = "contactLink navLinks">contact</a></li>
+				<li><a ng-click="go('/portfolio'); updateIndex('/portfolio')" class = "portfolioLink navLinks">portfolio</a></li>
+			</ul>
 		</div>
 		<div ng-view class="mainView" >
 			<!--inside main view-->
