@@ -27,18 +27,11 @@ app.config(function($routeProvider){
 });
 
 app.controller("mainCtrl", function($scope, $location) {
-	var links = ["/", "/info", "/contact", "/portfolio"];
+	var links = ["/", "/info", "/contact", "/portfolio"];//site map :P
 	var linkIndex = 1;
-	
-	    $scope.updateIndex = function(link) {
-    	console.log(links);
-    	var link = document.location.href.split('/');
-		var currentLink = links.indexOf("/" + link[5]);
-
-		//linkIndex = currentLink++;
-		console.log(currentLink);
-
-    	
+	$scope.updateIndex = function(link) {
+		var currentLink = links.indexOf(link);
+		linkIndex = currentLink +=1;	
     }
  	$scope.go = function (path) {
         $location.path(path);
@@ -47,18 +40,14 @@ app.controller("mainCtrl", function($scope, $location) {
 		var link = document.location.href.split('/');
 		var currentLink = links.indexOf("/" + link[5]);
 			if(currentLink == linkIndex) {
-				linkIndex++;
-				console.log(linkIndex);
+				linkIndex +=1;
 			}
 			if(linkIndex === links.length) {
 	    		linkIndex = 0;
 	    	}//end if
     	$location.path(links[linkIndex]);
-    	linkIndex++;
+    	linkIndex +=1;
     }//end pages
-
-   
-
 });
 app.directive('newpage',function($location){
 	return {
