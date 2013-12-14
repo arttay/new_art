@@ -1,5 +1,8 @@
+html {
+  background-color: #000;
+}
 body {
-  margin: 0;
+  overflow: hidden
 }
 
 html a {
@@ -9,12 +12,14 @@ html a {
 	text-decoration: underline;
 
 }
-
+.wrapper {
+  width: 1400px;
+}
 
 .tempWrap {
 
     background-color:#000;
- float: left;
+    float: left;
     width:100%;
     height:95%;
     top:5%;
@@ -22,18 +27,49 @@ html a {
  
 }
 .main {
-background: url(../images/8ef7df51_smush_Darksiders-2-The-new-iPad-wallpaper.jpg) no-repeat 100% 0 scroll;
+background: url(../images/8ef7df51_smush_Darksiders-2-The-new-iPad-wallpaper.jpg);
+background-repeat: no-repeat;
+background-position: 100% 22%;
 background-color: #000;
 
 }
 .info {
-background-image: url(http://art-taylor.net/images/dark_wall.png);
+background: url(../images/good/women_catwoman_whips_fantasy_art_digital_art_batman_arkham_city_1920x1080_wallpaper_Wallpaper_2560x1440_www.wallpaperswa.com.jpg);
+background-color: #fff;
+background-position: 48% 3%;
+background-size: 94%;
+background-repeat: no-repeat;
 }
 .contact {
-background-image: url(http://art-taylor.net/images/dark_wall.png);
+background: url(../images/elf.jpg);
+background-repeat: no-repeat;
+background-position: -67% 26%;
+background-size: 85%;
+background-color: #000;
+
 }
 .portfolio {
-  background-image: url(http://art-taylor.net/images/dark_wall.png);
+  background-image: url(../images/gurren-lagann/309863.jpg);
+background-position: 133%;
+background-repeat: no-repeat;
+background-color: #fff;
+background-size: 62%;
+}
+
+
+
+.portfolio2 {
+  background-image: url(../images/gurren-lagann/309863.jpg);
+background-position: 133%;
+background-repeat: no-repeat;
+background-color: #fff;
+background-size: 62%;
+}
+.errorView {
+    background-image: url(../images/gurren-lagann/tengen-toppa-gurren-lagann-yoko-littner-HD-Wallpapers.jpg);
+background-position: 100%;
+background-repeat: no-repeat;
+background-color: #fff;
 }
 
 .mainView.ng-enter, .mainView.ng-leave {
@@ -42,6 +78,13 @@ background-image: url(http://art-taylor.net/images/dark_wall.png);
 
 
  
+}
+p.quote {
+width: 50%;
+margin: auto;
+text-align: center;
+font-size: 150%;
+margin-top: 20px;
 }
 
 .mainView.ng-enter {
@@ -63,11 +106,12 @@ background-image: url(http://art-taylor.net/images/dark_wall.png);
   height: 100%;
   width: 5%;
   opacity: .7;
-
   position: absolute;
   right: 0;
   z-index: 9999;
-   background-color: #ccc;
+  background-color: #ccc;
+  background-image: url(../images/arrow.png);
+
 }
 .nav {
   height: 5%;
@@ -95,3 +139,28 @@ background-image: url(http://art-taylor.net/images/dark_wall.png);
    padding-top: 10px;
    text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+.portfolio a {
+  color: #000;
+}
+
+/*
+breakpoints 
+
+
+
+1400
+940
+545
+
+*/

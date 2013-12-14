@@ -22,7 +22,23 @@ app.config(function($routeProvider){
 			templateUrl: "js/templates/portfolio.template.html",
 			
 		}
+	).when("/prowork",
+		{
+			templateUrl: "js/templates/portfolio/pro.template.html",
+			
+		}
+	).when("/github",
+		{
+			templateUrl: "js/templates/portfolio/github.template.html",
+			
+		}
+	).when("/personalprojects",
+		{
+			templateUrl: "js/templates/portfolio/cool.template.html",
+			
+		}
 	)
+
 
 });
 
@@ -48,6 +64,18 @@ app.controller("mainCtrl", function($scope, $location) {
     	$location.path(links[linkIndex]);
     	linkIndex +=1;
     }//end pages
+});
+app.controller("portCtlr", function($scope, $location) {
+	$scope.go = function (path) {
+        $location.path(path);
+    }
+
+});
+app.controller("proCtlr", function($scope, $location) {
+	$scope.go = function (path) {
+        $location.path(path);
+    }
+
 });
 app.directive('newpage',function($location){
 	return {
