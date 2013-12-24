@@ -1,0 +1,338 @@
+html {
+  background-color: #000;
+  a {
+      cursor: pointer;
+  position: relative;
+  text-decoration: underline;
+  }
+}
+body {
+  overflow: hidden;
+
+height: 100%;
+
+}
+html, body {
+position: fixed;
+height: 100%;
+
+}
+
+.wrapper {
+  width: 1400px;
+  height:100%;
+}
+
+.tempWrap {
+
+    background-color:#000;
+    float: left;
+    width:100%;
+    height:95%;
+    top:5%;
+    left:20%;
+}
+.clear {
+  clear: both;
+}
+.main {
+background: url(../../images/build/8ef7df51_smush_Darksiders-2-The-new-iPad-wallpaper.jpg);
+background-repeat: no-repeat;
+background-position: 100% 22%;
+background-color: #000;
+
+
+}
+.info {
+background: url(../../images/build/women_catwoman_whips_fantasy_art_digital_art_batman_arkham_city_1920x1080_wallpaper_Wallpaper_2560x1440_www.wallpaperswa.com.jpg);
+background-color: #fff;
+background-position: 48% 3%;
+background-size: 94%;
+background-repeat: no-repeat;
+  p {
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 100px;
+  }
+}
+.contact {
+background: url(../../images/build/elf.jpg);
+background-repeat: no-repeat;
+background-position: -67% 26%;
+background-size: 85%;
+background-color: #000;
+  fieldset {
+    width:25%;
+    float: right;
+    color: #fff;
+    input {
+      display: block;
+    }
+
+  }
+a.twitter-timeline {
+  color: #fff;
+}
+.twitterBox {
+float: right;
+width: 411px;
+margin-right: 100PX;
+}
+}
+.portfolio {
+  background-image: url(../../images/build/309863.jpg);
+background-position: 133%;
+background-repeat: no-repeat;
+background-color: #fff;
+background-size: 62%;
+}
+
+
+
+.portfolio2 {
+  background-image: url(../../images/build/309863.jpg);
+background-position: 133%;
+background-repeat: no-repeat;
+background-color: #fff;
+background-size: 62%;
+}
+.errorView {
+    background-image: url(../../images/build/tengen-toppa-gurren-lagann-yoko-littner-HD-Wallpapers.jpg);
+background-position: 100%;
+background-repeat: no-repeat;
+background-color: #fff;
+}
+
+.mainView.ng-enter, .mainView.ng-leave {
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s;
+}
+
+p.quote {
+width: 50%;
+margin: auto;
+text-align: center;
+font-size: 150%;
+margin-top: 20px;
+   font-family: 'Trade Winds', cursive;
+   line-height: 1.4;
+}
+
+
+.mainView {
+  height: 100%;
+  &.ng-leave {
+    &.ng-leave-active {
+      left:-100%;
+    }
+    }//ed ng leave
+  &.ng-enter {
+     left:100%;
+    position: absolute;
+    width:100%;
+    height:100%;
+    top: 5%;
+    &.ng-enter-active {
+      left:0;
+    }
+  }//en ng enter
+}
+
+
+
+
+
+.nextPage {
+  height: 100%;
+  width: 5%;
+  opacity: .7;
+  position: absolute;
+  right: 0;
+  top:0;
+  z-index: 9999;
+  background-color: #ccc;
+  background-image: url(../../images/arrow.png);
+  background-repeat: no-repeat;
+background-position: -117px;
+
+}
+.nav {
+  height: 40px;
+  width: 100%;
+  opacity: .8;
+   float: left;
+   background-color: #000;
+   a {
+    color: #fff;
+    text-decoration: none;
+   }
+   a:hover {
+    text-decoration: underline;
+   }
+    ul li {
+display: inline;
+margin-right: 7px;
+padding-right: 7px;
+border-right: 1px solid #fff;
+    &:last-child {
+      border: none;
+    }
+  }
+  ul {
+  width: 50%;
+  margin: auto;
+  font-size: 125%;
+   
+   text-align: center;
+  }
+
+  .mainNav {
+    padding-top: 10px;
+display: inline;
+float: left;
+  }
+  .socialNav {
+    display: inline;
+    float: left;
+  }
+
+}
+
+
+
+
+
+
+.portfolio a {
+  color: #000;
+}
+.mainMessage {
+    color: #fff;
+    font-family: 'Black Ops One', cursive;
+    width: 50%;
+    margin-left: 3%;
+    
+  &.first {
+    margin-top: 10%;
+    font-size: 225%;
+  }
+  &.second {
+    font-size: 109%;
+
+  }
+}//end main message
+
+.prowork, .github, .personal {
+  margin-top:35px;
+  font-size:400%;
+display: block;
+text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+
+  }
+}
+.portLinkGroup {
+  margin-top: 10%;
+  margin-left:10%;
+  width:35%;
+}
+
+.proThumb {
+  float: left;
+  width: 33%;
+}
+.proText {
+  width: 66%;
+  float:left;
+}
+.proWrap {
+  width: 75%;
+margin: auto;
+padding-top: 10px;
+}
+.pro{
+  color: #fff;
+    a {
+      color: #fff;
+    }
+}
+.proTitle {
+  font-size:150%;
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+}
+.git {
+  color: #fff;
+  a {
+    font-size: 16px;
+    color: #fff;
+  }
+  .gitProjet {
+    width: 75%;
+    margin: auto;
+    display:block;
+    padding-top:10px;
+  }//end git project
+}
+.gitTitle {
+  float: left;
+  width: 10%;
+}
+.projectLang {
+  float: left;
+  width: 7%;
+}
+.projectDescrip {
+  float: left;
+  width: 70%;
+}
+.backLink {
+  width: 75%;
+margin: auto;
+text-align: center;
+padding-top:10px;
+font-size: 150%;
+}
+.projects {
+  color:#fff;
+}
+
+
+@media all and (min-width: 1275px) {
+  .mainMessage {
+      color: #fff;
+      font-family: 'Black Ops One', cursive;
+      width: 50%;
+      margin-left: 10%;
+      
+    &.first {
+      margin-top: 10%;
+      font-size: 300%;
+    }
+    &.second {
+      font-size: 165%;
+    }
+
+  }
+}
+
+/*
+breakpoints 
+
+    font-family: 'Trade Winds', cursive;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Alike Angular', serif;
+    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Black Ops One', cursive;
+
+1400
+940
+545
+
+*/

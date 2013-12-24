@@ -1,0 +1,11 @@
+{
+    "sort-order": [
+        [
+            "background-repeat",
+            "background-position",
+            "background-color",
+            "background"
+            
+        ]
+    ]
+}

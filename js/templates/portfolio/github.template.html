@@ -1,0 +1,11 @@
+<div class = "tempWrap git" ng-controller="githubCtlr" id='ctl'>
+	<div class="gitProjet" ng-repeat="item in data.data">
+		<div class="gitTitle"><a href="{{item.url}}">{{item.name}}</a></div>
+		<div class="projectLang">{{item.language}}</div>
+		<div class="projectDescrip">{{item.description}}</div>
+	<div class="clear"></div>
+	</div>
+	<div class="backLink">
+		<a href="#/portfolio">back to portfolio</a>
+	</div>
+</div>

@@ -1,3 +1,13 @@
-<div class = "tempWrap cool">
-	<h1>cool</h1>
+<div class = "tempWrap projects" ng-controller="personalCtlr">
+		<section class="proWrap" ng-repeat="item in personalData">
+		<article class="itemWrap">
+			<div class="proTitle"><a href="{{item.url}}">{{item.title}}</a></div>
+			<div class="proThumb"><img ng-src="{{item.thumb}}" width="200" height="100"/></div>
+			<div class="proText"><p>{{item.text}}</p></div>
+		</article>
+		<div class="clear"></div>
+	</section>
+	<div class="backLink">
+		<a href="#/portfolio">back to portfolio</a>
+	</div>
 </div>

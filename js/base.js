@@ -1,8 +1,9 @@
 jQuery.noConflict();
 jQuery(document).ready(function(){
 	
-
+var height = jQuery(window).height()
 	jQuery('.wrapper').css({width: jQuery(window).width()});
+
 
 	jQuery(window).resize(function(){
 		
@@ -11,6 +12,7 @@ jQuery(document).ready(function(){
 			jQuery('.wrapper').css({width: jQuery(window).width()});
 			console.log(width);
 		}
+		
 	
 	});
 
