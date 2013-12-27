@@ -7,7 +7,7 @@ $mail = new PHPMailer;
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup server
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'arttay1090@gmail.com';                            // SMTP username
-$mail->Password = '626292!Art';                           // SMTP password
+$mail->Password = 'younoseepassword';                           // SMTP password
 $mail->SMTPSecure = 'ssl';                           // Enable encryption, 'ssl' also accepted
 
 $mail->From = 'arttay1090@yahoo.com';
